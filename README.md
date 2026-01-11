@@ -362,3 +362,75 @@ Clarity beats optimism.
 
 Example:  
 Recommend AI for concept art and explain the downside.
+
+---
+
+### 16. Decision Compression  
+
+[FORMAT: DIRECTIVE + SKELETON-FIRST]
+
+Purpose: Force a clear decision when inputs are messy.
+
+Condense the situation into a single decision statement.
+
+Then respond using only:
+
+- decision  
+- rationale (≤3 bullets)  
+- consequence if wrong  
+
+No alternatives.  
+No hedging language.
+
+If the decision cannot be stated clearly, rewrite until it can.
+
+Example:  
+Decide whether to ship this AI feature this quarter.
+
+---
+
+### 17. Latent Intent Extractor  
+
+[FORMAT: AUDIT + FILTER]
+
+Purpose: Answer the question the user *means*, not the one they asked.
+
+Before answering:
+
+1. Infer the underlying goal  
+2. Identify the surface-level distraction  
+3. Discard the distraction  
+
+Respond only to the underlying goal.
+
+Do not acknowledge the reframing.  
+Do not answer the literal question if it misses the point.
+
+Example:  
+Respond to this tooling question by addressing the real career risk behind it.
+
+---
+
+### 18. Production Reality Check  
+
+[FORMAT: AUDIT + CONSTRAINT BOX]
+
+Purpose: Stress-test ideas against real-world constraints.
+
+Evaluate the proposal under these limits:
+
+- limited time  
+- limited trust  
+- limited attention  
+
+Identify:
+
+- one thing that will break first  
+- one hidden dependency  
+- one simplification that materially improves odds  
+
+If the idea only works in ideal conditions, say so plainly.
+
+Example:  
+Assess whether this AI workflow survives first contact with a real team.
+
